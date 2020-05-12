@@ -1,0 +1,157 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Muli', sans-serif;
+  color: #041E44;
+}
+
+header {
+  padding: 175px 10px 218px;
+  margin-top: -110px;
+  background-image: url("../images/header/banner.png");
+  background-size: cover;
+}
+
+header h1, header p {
+  font-family: 'Pacifico', serif;
+  color: #fcf9f9;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+}
+
+header h1 {
+  font-size: 70px;
+  line-height: 90px;
+}
+
+header p {
+  font-size: 50px;
+}
+
+header .btn-take-look {
+  border-radius: 8px;
+  background: #fc667a;
+  color: #fcf9f9;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header .btn-take-look:hover {
+  background-color: #FC7587;
+  color: #fcf9f9;
+}
+
+.section-remember {
+  min-height: 120px;
+  margin-bottom: 40px;
+}
+
+.section-remember .section-remember-heading {
+  margin-top: 60px;
+}
+
+.section-remember .section-remember-heading h2 {
+  color: #041E44;
+  font-family: 'Pacifico', serif;
+  font-size: 40px;
+}
+
+.section-remember-content .section-remember-moment .card-moment {
+  height: 445px;
+  width: 445px;
+  color: #ffffff;
+  padding: 40px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-remember-content .section-remember-moment .card-moment .moment-title {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.section-remember-content .section-remember-moment .card-moment .moment-button .btn-moment-details {
+  width: 200px;
+  background-color: #FC667A;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-chapter {
+  background-color: #EFD3D3;
+  margin-top: -250px;
+  padding-bottom: 60px;
+  height: 520px;
+}
+
+.section-chapter .section-chapter-heading {
+  margin-top: 320px;
+}
+
+.section-chapter .section-chapter-heading h2 {
+  color: #041E44;
+  font-family: 'Pacifico', serif;
+  font-size: 40px;
+}
+
+.section-chapter-content .section-chapter-stats {
+  margin-top: -70px;
+}
+
+.section-chapter-content .section-chapter-stats .stats-detail {
+  padding-top: 27px;
+  background-color: #FFFFFF;
+  padding-left: 36px;
+}
+
+.section-chapter-content .section-chapter-stats .stats-detail h2 {
+  font-size: 35px;
+  margin-bottom: 1;
+  font-weight: bold;
+}
+
+.section-chapter-content .section-chapter-stats .stats-detail p {
+  font-size: 25px;
+}
+
+.section-ready {
+  background-color: #F6F6F6;
+  min-height: 340px;
+  margin-top: -60px;
+}
+
+.section-ready .btn-ready {
+  margin-top: 160px;
+  width: 180px;
+  border-radius: 8px;
+  background: #fc667a;
+  color: #fcf9f9;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-ready .btn-ready:hover {
+  background-color: #FC7587;
+  color: #fcf9f9;
+}
+
+.section-footer {
+  background-image: url("../images/footer/banner.png");
+  min-height: 520px;
+}
+
+.section-footer .section-footer-title {
+  margin-top: 180px;
+}
+
+.section-footer .section-footer-title h1 {
+  font-family: 'Pacifico', serif;
+  font-size: 70px;
+  line-height: 90px;
+  color: #fcf9f9;
+  -webkit-transform: rotate(350deg);
+          transform: rotate(350deg);
+}
+/*# sourceMappingURL=main.css.map */
