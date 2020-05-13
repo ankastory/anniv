@@ -12,14 +12,14 @@
   <div class="container">
     <center>
       <nav class="row navbar navbar-expand-lg navbar-light bg-white col-10">
-        <a href="#" class="navbar-brand">Anka Story</a>
+        <a href="{{ route('home') }}" class="navbar-brand">Anka Story</a>
         <div class="collapse navbar-collapse" id="navb">
           <ul class="navbar-nav ml-auto mr-3">
             <li class="nav-item mx-md-2">
-              <a href="#" class="nav-link active">First Meet</a>
+              <a href="{{ route('first') }}" class="nav-link active">First Meet</a>
             </li>
             <li class="nav-item mx-md-2">
-              <a href="#" class="nav-link">Up & Down</a>
+              <a href="{{ route('updown') }}" class="nav-link">Up & Down</a>
             </li>
             <li class="nav-item mx-md-2">
               <a href="#" class="nav-link">More Smiles</a>

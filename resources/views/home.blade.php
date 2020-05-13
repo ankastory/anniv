@@ -50,7 +50,7 @@
               style="background-image: url('frontend/images/moment/moment_2.png')">
               <div class="moment-title">Up and Down</div>
               <div class="moment-button mt-auto">
-                <a href="" class="btn btn-moment-details px-4">
+                <a href="{{ route('updown') }}" class="btn btn-moment-details px-4">
                   Remember
                 </a>
               </div>
