@@ -154,4 +154,76 @@ header .btn-take-look:hover {
   -webkit-transform: rotate(350deg);
           transform: rotate(350deg);
 }
+
+.navbar-brand {
+  color: #041E44;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav {
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #041E44;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #FC667A !important;
+}
+
+.section-first-header {
+  min-height: 340px;
+  background-image: url("../images/first/banner.png");
+  margin-top: -60px;
+}
+
+.section-first-content {
+  background-color: #FAFAFA;
+}
+
+.section-first-content .story-title {
+  margin-top: 70px;
+}
+
+.section-first-content .story-title .title-first {
+  font-family: 'Pacifico', serif;
+  font-size: 40px;
+  color: #041E44;
+}
+
+.section-first-content .story-title .title-second {
+  font-family: 'Pacifico', serif;
+  font-size: 40px;
+  color: #FC667A;
+}
+
+.section-first-content .story-content {
+  margin-top: 70px;
+  margin-left: 170px;
+  margin-right: 170px;
+  font-size: 24px;
+  color: #041E44;
+  text-align: justify;
+}
+
+.section-first-content .story-content .quote {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #041E44;
+}
+
+.section-first-content .story-footer {
+  margin-top: 60px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 90px;
+}
+
+.section-first-content .story-footer img {
+  width: 1080px;
+  height: 440px;
+}
 /*# sourceMappingURL=main.css.map */

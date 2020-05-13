@@ -39,7 +39,7 @@
               style="background-image: url('frontend/images/moment/moment_1.png')">
               <div class="moment-title">When We First Met</div>
               <div class="moment-button mt-auto">
-                <a href="" class="btn btn-moment-details px-4">
+                <a href="{{ route('first') }}" class="btn btn-moment-details px-4">
                   Remember
                 </a>
               </div>
