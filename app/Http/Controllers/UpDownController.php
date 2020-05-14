@@ -8,6 +8,6 @@ class UpDownController extends Controller
 {
     public function index()
     {
-        return view('updown');
+        return view('pages.updown');
     }
 }

@@ -8,6 +8,6 @@ class FirstController extends Controller
 {
     public function index()
     {
-        return view('first');
+        return view('pages.first');
     }
 }
