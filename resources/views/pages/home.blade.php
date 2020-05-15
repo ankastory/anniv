@@ -56,7 +56,7 @@
             style="background-image: url('frontend/images/moment/moment_3.png')">
             <div class="moment-title">One More Smile</div>
             <div class="moment-button mt-auto">
-              <a href="" class="btn btn-moment-details px-4">
+              <a href="{{ route('smile') }}" class="btn btn-moment-details px-4">
                 Remember
               </a>
             </div>

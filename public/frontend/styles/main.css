@@ -581,4 +581,108 @@ header .btn-take-look:hover {
 .section-updown-content .timeline > li > .timeline-badge .timeline-text-loading {
   margin-top: 20px;
 }
+
+.section-smile-header {
+  min-height: 340px;
+  background-image: url("../images/smile/banner.png");
+  margin-top: -60px;
+}
+
+.section-smile-header .section-smile-header-title {
+  margin-top: 105px;
+}
+
+.section-smile-header .section-smile-header-title h1 {
+  font-family: 'Pacifico', serif;
+  font-size: 35px;
+  line-height: 62px;
+  color: #E9E9E9;
+}
+
+.section-smile-content {
+  background-color: #FAFAFA;
+  margin-bottom: 60px;
+}
+
+.section-smile-content .smile-title {
+  margin-top: 70px;
+  font-family: 'Pacifico', serif;
+  font-size: 40px;
+}
+
+.section-smile-content .smile-title .title-first {
+  color: #041E44;
+}
+
+.section-smile-content .smile-title .title-second {
+  color: #FC667A;
+}
+
+.section-smile-content .card-columns {
+  margin-top: 80px;
+  margin-left: -60px;
+  margin-bottom: -93px;
+}
+
+.section-smile-content .card-columns .card {
+  border: 0px;
+  width: 328px;
+}
+
+.section-smile-content .card-columns .card-two {
+  margin-left: -78px;
+}
+
+.section-smile-content .card-columns .card-three {
+  margin-left: -165px;
+  width: 308px;
+  vertical-align: top;
+}
+
+.section-smile-content .card-columns .card-four {
+  margin-left: -4px;
+  margin-right: -78px;
+  width: 309px;
+}
+
+.section-smile-content .card-columns .card-one-two {
+  margin-top: -105px;
+  width: 328px;
+}
+
+.section-smile-content .card-columns .card-two-two {
+  margin-left: -78px;
+  width: 330px;
+}
+
+.section-smile-content .card-columns .card-three-two {
+  margin-top: -1px;
+  margin-left: -157px;
+}
+
+.section-smile-content .card-columns .card-one-three {
+  width: 400px;
+}
+
+.section-smile-content .card-columns .card-three-three {
+  width: 304px;
+}
+
+.section-smile-content .card-columns .card-two-four {
+  margin-left: -80px;
+  width: 378px;
+}
+
+.section-smile-content .card-columns .card-three-four {
+  margin-left: -109px;
+}
+
+.section-smile-content .card-columns .card-one-five {
+  margin-top: 92px;
+  width: 624px;
+}
+
+.section-smile-content .card-columns .card-three-five {
+  margin-left: -179px;
+}
 /*# sourceMappingURL=main.css.map */
