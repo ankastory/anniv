@@ -660,14 +660,6 @@ header .btn-take-look:hover {
   margin-left: -157px;
 }
 
-.section-smile-content .card-columns .card-one-three {
-  width: 400px;
-}
-
-.section-smile-content .card-columns .card-three-three {
-  width: 304px;
-}
-
 .section-smile-content .card-columns .card-two-four {
   margin-left: -80px;
   width: 378px;
@@ -684,5 +676,32 @@ header .btn-take-look:hover {
 
 .section-smile-content .card-columns .card-three-five {
   margin-left: -179px;
+}
+
+.section-smile-content .pic-margin-small {
+  margin-top: -92px;
+}
+
+.section-smile-content .pic-margin-small .card-three-three {
+  margin-left: -157px;
+  width: 303px;
+}
+
+.section-smile-content .pic-margin-small .card-four-three {
+  margin-left: -10px;
+  margin-right: -60px;
+  vertical-align: top;
+  width: 306px;
+}
+
+.section-smile-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-smile-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */

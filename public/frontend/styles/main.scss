@@ -655,17 +655,6 @@ header {
       margin-left: -157px;
     }
 
-    .card-one-three {
-      width: 400px;
-    }
-
-    .card-three-three {
-      width: 304px;
-    }
-
-    .card-four-three {
-    }
-
     .card-two-four {
       margin-left: -80px;
       width: 378px;
@@ -682,6 +671,34 @@ header {
 
     .card-three-five {
       margin-left: -179px;
+    }
+  }
+
+  .pic-margin-small {
+    margin-top: -92px;
+
+    .card-three-three {
+      margin-left: -157px;
+      width: 303px;
+    }
+
+    .card-four-three {
+     margin-left: -10px;
+     margin-right: -60px;
+     vertical-align: top;
+     width: 306px;
+    }
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
     }
   }
 } 
