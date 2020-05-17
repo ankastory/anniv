@@ -17,3 +17,4 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/first', 'FirstController@index')->name('first');
 Route::get('/updown', 'UpDownController@index')->name('updown');
 Route::get('/smile', 'SmileController@index')->name('smile');
+Route::get('/trivia', 'TriviaController@index')->name('trivia');

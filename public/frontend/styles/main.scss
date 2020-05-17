@@ -503,8 +503,8 @@ header {
       }
 
       .modal-content {
-          animation-name: zoom;
-          animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
       }
 
       @keyframes zoom {
@@ -702,3 +702,127 @@ header {
     }
   }
 } 
+
+.section-trivia-header {
+  min-height: 340px;
+  background-image: url('../images/trivia/banner.png');
+  margin-top: -60px;
+
+  .section-trivia-header-title {
+    margin-top: 135px;
+
+    h1 {
+        font-family: 'Pacifico', serif;
+        font-size: 35px;
+        line-height: 62px;
+        color: #E9E9E9;
+    }
+  }
+}
+
+.section-trivia-content {
+  background-color: #FAFAFA;
+  margin-bottom: 60px;
+
+  .trivia-title {
+    margin-top: 70px;
+    font-family: 'Pacifico',
+        serif;
+    font-size: 40px;
+
+    .title-first {
+        color: #041E44;
+    }
+
+    .title-second {
+        color: #FC667A;
+    }
+  }
+
+  .card-number {
+    margin-top: 50px;
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    background: #fc667a;
+    z-index: 1;
+
+    h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      margin-top: 5px;
+    }
+  }
+
+  .card-question {
+    margin-top: -20px;
+    height: 273px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #e1d4d4;
+
+    p {
+      padding: 50px 40px;
+      font-size: 24px;
+      color: #041E44;
+      text-align: center;
+    }
+  }
+
+  .card-option {
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #e1d4d4;
+    
+    button {
+      font-size: 22px;
+      font-weight: bold;
+
+      &:hover {
+        background-color: #FC7587;
+        color: #fcf9f9;
+      }
+    }
+  }
+
+  .collapse-answer {
+    margin-top: 30px;
+    
+    .card-answer {
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      margin-top: 20px;
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 28px;
+      color: #041E44;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 20px;
+      color: #041E44;
+      padding: 10px 40px;
+    }
+  }
+
+  .btn-next {
+    border-radius: 8px;
+    background: #fc667a;
+    color: #fcf9f9;
+    font-size: 20px;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #FC7587;
+      color: #fcf9f9;
+    }
+  }
+}

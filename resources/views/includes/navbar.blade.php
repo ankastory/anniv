@@ -23,14 +23,21 @@
             </a>
           </li>
           <li class="nav-item mx-md-2">
-            <a href="{{ route('smile') }}"" 
-            class="nav-link
-            @if(Route::currentRouteName() == 'smile') active @endif"
-          >
-            More Smiles</a>
+            <a 
+              href="{{ route('smile') }}"" 
+              class="nav-link
+              @if(Route::currentRouteName() == 'smile') active @endif"
+            >
+              More Smiles
+            </a>
           </li>
           <li class="nav-item mx-md-2">
-            <a href="#" class="nav-link">Trivia</a>
+            <a href="{{ route('trivia') }}" 
+              class="nav-link
+              @if(Route::currentRouteName() == 'trivia') active @endif"
+            >
+              Trivia
+            </a>
           </li>
         </ul>
       </div>

@@ -704,4 +704,127 @@ header .btn-take-look:hover {
           box-shadow: none;
   margin-bottom: 10px;
 }
+
+.section-trivia-header {
+  min-height: 340px;
+  background-image: url("../images/trivia/banner.png");
+  margin-top: -60px;
+}
+
+.section-trivia-header .section-trivia-header-title {
+  margin-top: 135px;
+}
+
+.section-trivia-header .section-trivia-header-title h1 {
+  font-family: 'Pacifico', serif;
+  font-size: 35px;
+  line-height: 62px;
+  color: #E9E9E9;
+}
+
+.section-trivia-content {
+  background-color: #FAFAFA;
+  margin-bottom: 60px;
+}
+
+.section-trivia-content .trivia-title {
+  margin-top: 70px;
+  font-family: 'Pacifico', serif;
+  font-size: 40px;
+}
+
+.section-trivia-content .trivia-title .title-first {
+  color: #041E44;
+}
+
+.section-trivia-content .trivia-title .title-second {
+  color: #FC667A;
+}
+
+.section-trivia-content .card-number {
+  margin-top: 50px;
+  width: 180px;
+  height: 35px;
+  border-radius: 20px;
+  background: #fc667a;
+  z-index: 1;
+}
+
+.section-trivia-content .card-number h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.section-trivia-content .card-question {
+  margin-top: -20px;
+  height: 273px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #e1d4d4;
+}
+
+.section-trivia-content .card-question p {
+  padding: 50px 40px;
+  font-size: 24px;
+  color: #041E44;
+  text-align: center;
+}
+
+.section-trivia-content .card-option {
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #e1d4d4;
+}
+
+.section-trivia-content .card-option button {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-trivia-content .card-option button:hover {
+  background-color: #FC7587;
+  color: #fcf9f9;
+}
+
+.section-trivia-content .collapse-answer {
+  margin-top: 30px;
+}
+
+.section-trivia-content .collapse-answer .card-answer {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section-trivia-content .collapse-answer img {
+  margin-top: 20px;
+}
+
+.section-trivia-content .collapse-answer h3 {
+  margin-top: 10px;
+  font-size: 28px;
+  color: #041E44;
+  font-weight: bold;
+}
+
+.section-trivia-content .collapse-answer p {
+  font-size: 20px;
+  color: #041E44;
+  padding: 10px 40px;
+}
+
+.section-trivia-content .btn-next {
+  border-radius: 8px;
+  background: #fc667a;
+  color: #fcf9f9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-trivia-content .btn-next:hover {
+  background-color: #FC7587;
+  color: #fcf9f9;
+}
 /*# sourceMappingURL=main.css.map */
