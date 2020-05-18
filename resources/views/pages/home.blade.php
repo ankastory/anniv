@@ -123,8 +123,14 @@
     </div>
   </section>
   <section class="section-footer">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
+        <img 
+          src="{{ url('frontend/images/footer/banner.png') }}" 
+          alt=""
+          class="img-fluid"
+          width="1366"
+          height="520">
         <div class="section-footer-title col-12 text-center">
           <h1>
             Thank You

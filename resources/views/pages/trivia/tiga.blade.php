@@ -27,16 +27,16 @@
       </div>
       <center>
         <div class="card card-number col-10 text-center">
-          <h5>1 dari 6</h5>
+          <h5>3 dari 6</h5>
         </div>
         <div class="card card-question col-10">
           <p>
-            Salah satu kegiatan yang paling sering kita lakuin selama 3 tahun adalah
-            nonton bioskop. Sudah 34 judul film yang kita tonton bersama hingga 
-            sekarang. Tapi yang paling berkesan buatku adalah momen pertama saat
-            kita duduk bersampingan pada baris kedua dari layar. 
+            Setiap hari ulang tahunmu, kita selalu menjelajah banyak tempat dan
+            melakukan banyak kegiatan. Mulai dari memenuhi BM kamu hingga 
+            memutari kota Jakarta mencari sesuatu.    
             <strong>
-              Judul film apakah yang kita tonton saat itu?
+              Dari banyak kegiatan itu, ada satu yang tidak pernah 
+              kita lakukan di hari ulang tahunmu. Kegiatan apakah itu? 
             </strong>
           </p>
         </div>
@@ -50,7 +50,7 @@
                 data-toggle="collapse"
                 href="#wrong"
               >
-                Pengabdi Setan
+                Makan Nasi Padang
               </button>
             </div>
           </div>
@@ -63,7 +63,7 @@
                 data-toggle="collapse"
                 href="#wrong"
               >
-                Milly & Mamet
+                Pergi ke Museum
               </button>
             </div>
           </div>
@@ -76,7 +76,7 @@
                 data-toggle="collapse"
                 href="#wrong"
               >
-                Hotel Mumbai
+                Main Timezone
               </button>
             </div>
           </div>
@@ -89,7 +89,7 @@
                 data-toggle="collapse"
                 href="#correct"
               >
-                Guardians of the Galaxy Vol.2
+                Kondangan Bareng
               </button>
             </div>
           </div>
@@ -104,18 +104,64 @@
             >
             <h3>Correct!</h3>
             <p>
-              <strong>Guardians of the Galaxy Vol. 2</strong> adalah film pertama yang kita saksikan 
-              bersama. Sabtu malam tanggal 29 April 2017, di salah satu mall
-              daerah Bintaro, kamu mengalah dengan menuruti kemauanku untuk
-              menonton film itu. Aku senang ternyata kamu menikmati film 
-              pilihanku, meskipun bukan salah satu genre kesukaanmu. Dan yang
-              membuatku makin senang, malam itu, banyak cerita keluar dari mulut kita,
-              bahkan baru berhenti saat aku mengantarmu pulang ke rumah. 
+              Dari sekian banyak kegiatan yang dilakukan di hari ulang tahunmu,
+              <strong> Kondangan Bareng</strong> bukanlah salah satunya.
+              Di tahun pertama, kita pergi ke Museum Macan lalu makan nasi padang
+              bersama di rumahmu dan berbincang hingga malam. Tahun selanjutnya, 
+              ulang tahunmu ke 22, keinginanmu untuk mengunjungi RUCI Art Space
+              tidak terwujud. Hari itu kita habiskan dengan memutari Jakarta 
+              untuk mencari kadomu dan diakhiri dengan bermain Timezone berdua.
+              Lalu awal tahun ini, hari ulang tahunmu kita lewati dengan mencari
+              sepatu pilihanmu yang tak kunjung dapat hingga malam tiba.  
             </p>
           </div>
-          <a href="#" class="btn btn-next">
-            Next Question
-          </a>
+          <form action="{{ route('trivia3') }}" method="POST">
+            @csrf
+            <input 
+              type="hidden"
+              name="status"
+              value={{ $jml+1 }}
+            >
+            <button type="submit" class="btn btn-next">
+              Next Question
+            </button>
+          </form>
+        </div>
+        <div class="collapse collapse-answer" id="wrong" >
+          <div class="card card-answer col-10 justify-content-center">
+            <img 
+              src="{{ url('frontend/images/icons/ic_cross@2x.png') }}" 
+              alt=""
+              width="80"
+              height="80"
+            >
+            <h3>Incorrect!</h3>
+            <p>
+              Dari sekian banyak kegiatan yang dilakukan di hari ulang tahunmu,
+              <strong> Kondangan Bareng</strong> bukanlah salah satunya.
+              Di tahun pertama, kita pergi ke Museum Macan lalu makan nasi padang
+              bersama di rumahmu dan berbincang hingga malam. Tahun selanjutnya, 
+              ulang tahunmu ke 22, keinginanmu untuk mengunjungi RUCI Art Space
+              tidak terwujud. Hari itu kita habiskan dengan memutari Jakarta 
+              untuk mencari kadomu dan diakhiri dengan bermain Timezone berdua.
+              Lalu awal tahun ini, hari ulang tahunmu kita lewati dengan mencari
+              sepatu pilihanmu yang tak kunjung dapat hingga malam tiba.
+            </p>
+          </div>
+          <form action="{{ route('trivia3') }}" method="POST">
+            @csrf
+            <input 
+              type="hidden"
+              name="status"
+              value={{ $jml }}
+            >
+            <button type="submit" class="btn btn-next">
+              Next Question
+            </button>
+          </form>
+        </div>
+        <div class="section-trivia-footer">
+          <div class="container"></div>
         </div>
       </center>
     </div>

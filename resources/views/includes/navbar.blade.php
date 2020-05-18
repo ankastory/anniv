@@ -24,7 +24,7 @@
           </li>
           <li class="nav-item mx-md-2">
             <a 
-              href="{{ route('smile') }}"" 
+              href="{{ route('smile') }}"
               class="nav-link
               @if(Route::currentRouteName() == 'smile') active @endif"
             >
