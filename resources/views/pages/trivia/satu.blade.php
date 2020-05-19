@@ -49,6 +49,7 @@
                 class="btn btn-option px-4"
                 data-toggle="collapse"
                 href="#wrong"
+                autocomplete="off"
               >
                 Pengabdi Setan
               </button>
@@ -62,6 +63,7 @@
                 class="btn btn-option px-4"
                 data-toggle="collapse"
                 href="#wrong"
+                autocomplete="off"
               >
                 Milly & Mamet
               </button>
@@ -75,6 +77,7 @@
                 class="btn btn-option px-4"
                 data-toggle="collapse"
                 href="#wrong"
+                autocomplete="off"
               >
                 Hotel Mumbai
               </button>
@@ -88,13 +91,14 @@
                 class="btn btn-option px-4"
                 data-toggle="collapse"
                 href="#correct"
+                autocomplete="off"
               >
                 Guardians of the Galaxy Vol.2
               </button>
             </div>
           </div>
         </div>
-        <div class="collapse collapse-answer" id="correct" >
+        <div class="collapse collapse-answer" id="correct">
           <div class="card card-answer col-10 justify-content-center">
             <img 
               src="{{ url('frontend/images/icons/ic_check@2x.png') }}" 
@@ -173,9 +177,16 @@
     var no1 =  $("#salah, #benar");
 
     $('button').on('click',function(e){
-        var target=$(this).attr('href');
-        $(target).show();
-        $(no1).attr('disabled', 'disabled');
+      var target=$(this).attr('href');
+      $(target).show();
+      sessionStorage.setItem('collapseItem', $(this).attr('href'));
+      $(no1).attr('disabled', 'disabled');
     });
+
+    var collapseItem = sessionStorage.getItem("collapseItem"); 
+    if (collapseItem) {
+      $(collapseItem).collapse('show');
+    }
+       
   </script>
 @endpush

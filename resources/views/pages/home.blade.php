@@ -28,7 +28,7 @@
   <section class="section-remember-content" id="remember-content">
     <div class="container">
       <div class="section-remember-moment row justify-content-center">
-        <div class="col-10 col-sm-10 col-lg-5">
+        <div class="col-10 col-lg-5">
           <div class="card-moment text-center d-flex flex-column"
             style="background-image: url('frontend/images/moment/moment_1.png')">
             <div class="moment-title">When We First Met</div>
@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="col-10 col-sm-10 col-lg-5">
+        <div class="col-10 col-lg-5">
           <div class="card-moment text-center d-flex flex-column"
             style="background-image: url('frontend/images/moment/moment_2.png')">
             <div class="moment-title">Up and Down</div>
@@ -51,7 +51,7 @@
           </div>
         </div>
         <br>
-        <div class="col-10 col-sm-10 col-lg-5">
+        <div class="col-10 col-lg-5">
           <div class="card-moment text-center d-flex flex-column"
             style="background-image: url('frontend/images/moment/moment_3.png')">
             <div class="moment-title">One More Smile</div>
@@ -62,7 +62,7 @@
             </div>
           </div>
         </div>
-        <div class="col-10 col-sm-10 col-lg-5">
+        <div class="col-10 col-lg-5">
           <div class="card-moment text-center d-flex flex-column"
             style="background-image: url('frontend/images/moment/moment_4.png')">
             <div class="moment-title">Trivia & Reward</div>
@@ -88,23 +88,23 @@
   <section class="section-chapter-content" id="chapter-content">
     <div class="container">
       <div class="section-chapter-stats row justify-content-center">
-        <div class="col-3 col-md-2 stats-detail text-center">
+        <div class="col-10 col-sm-5 col-md-4 col-lg-2 stats-detail text-center">
           <h2>36</h2>
           <p>Months</p>
         </div>
-        <div class="col-3 col-md-2 stats-detail text-center">
+        <div class="col-10 col-sm-5 col-md-4 col-lg-2 stats-detail text-center">
           <h2>1096</h2>
           <p>Days</p>
         </div>
-        <div class="col-3 col-md-2 stats-detail text-center">
-          <h2>&#8734;</h2>
+        <div class="col-10 col-sm-5 col-md-4 col-lg-2 stats-detail text-center">
+          <h2 style="transform: rotate(90deg);">8</h2>
           <p>Smiles</p>
         </div>
-        <div class="col-3 col-md-2 stats-detail text-center">  
+        <div class="col-10 col-sm-5 col-md-4 col-lg-2 stats-detail text-center">  
           <h2>974</h2>
           <p>Moments</p>
         </div> 
-        <div class="col-3 col-md-2 stats-detail text-center"> 
+        <div class="col-10 col-sm-5 col-md-4 col-lg-2 stats-detail text-center"> 
           <h2>More</h2>
           <p>to Come</p>
         </div>
@@ -123,21 +123,13 @@
     </div>
   </section>
   <section class="section-footer">
-    <div class="container-fluid">
-      <div class="row">
-        <img 
-          src="{{ url('frontend/images/footer/banner.png') }}" 
-          alt=""
-          class="img-fluid"
-          width="1366"
-          height="520">
-        <div class="section-footer-title col-12 text-center">
-          <h1>
-            Thank You
-            <br>
-            Key
-          </h1>
-        </div>
+    <div class="container">
+      <div class="section-footer-title col-12 text-center">
+        <h1>
+          Thank You
+          <br>
+          Key
+        </h1>
       </div>
     </div>
   </section>

@@ -112,36 +112,38 @@
               saat tertidur karena penjelasan dosen yang membosankan. Dan mungkin ingatan dan 
               kesenangan lainnya akan ikut menghampiri saat kamu melihat daftar 20 kelas dibawah ini
             </p>
-            <table>
-              <tr>
-                <td>PBD</td>
-                <td>TPSI</td>
-                <td>Matriks</td>
-                <td>Jarkom</td>
-                <td>Enterpreneur</td>
-              </tr>
-              <tr>
-                <td>IPBO</td>
-                <td>SPK</td>
-                <td>Pengamen</td>
-                <td>SIM</td>
-                <td>IJK</td>
-              </tr>
-              <tr>
-                <td>RPL</td>
-                <td>AITI</td>
-                <td>SQL</td>
-                <td>TIS</td>
-                <td>Metris</td>
-              </tr>
-              <tr>
-                <td>Moprog</td>
-                <td>Statek</td>
-                <td>IS</td>
-                <td>MPPL</td>
-                <td>KPP</td>
-              </tr>
-            </table>
+            <div class="table-responsive-sm">
+              <table class="table">
+                <tr>
+                  <td>PBD</td>
+                  <td>TPSI</td>
+                  <td>Matriks</td>
+                  <td>Jarkom</td>
+                  <td>Enterpreneur</td>
+                </tr>
+                <tr>
+                  <td>IPBO</td>
+                  <td>SPK</td>
+                  <td>Pengamen</td>
+                  <td>SIM</td>
+                  <td>IJK</td>
+                </tr>
+                <tr>
+                  <td>RPL</td>
+                  <td>AITI</td>
+                  <td>SQL</td>
+                  <td>TIS</td>
+                  <td>Metris</td>
+                </tr>
+                <tr>
+                  <td>Moprog</td>
+                  <td>Statek</td>
+                  <td>IS</td>
+                  <td>MPPL</td>
+                  <td>KPP</td>
+                </tr>
+              </table>
+            </div>
           </div>
           <form action="{{ route('trivia2') }}" method="POST">
             @csrf

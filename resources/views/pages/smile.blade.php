@@ -267,6 +267,7 @@
             </div>
           </div>
       </div>
+      <div class="smile-footer"></div>
     </div>
   </section>
 </main>

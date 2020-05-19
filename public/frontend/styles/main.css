@@ -7,7 +7,7 @@ body {
 header {
   padding: 175px 10px 218px;
   margin-top: -110px;
-  background-image: url("../images/header/banner.png");
+  background: url("../images/header/banner.png") no-repeat center;
   background-size: cover;
 }
 
@@ -57,7 +57,6 @@ header .btn-take-look:hover {
 
 .section-remember-content .section-remember-moment .card-moment {
   height: 445px;
-  width: 445px;
   color: #ffffff;
   padding: 40px;
   background-size: cover;
@@ -71,11 +70,11 @@ header .btn-take-look:hover {
 }
 
 .section-remember-content .section-remember-moment .card-moment .moment-button .btn-moment-details {
-  width: 200px;
+  width: 160px;
   background-color: #FC667A;
   color: #ffffff;
   border-radius: 8px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -143,20 +142,48 @@ header .btn-take-look:hover {
 }
 
 .section-footer {
+  background: url("../images/footer/banner.png") no-repeat center;
+  background-size: cover;
   min-height: 520px;
 }
 
-.section-footer .section-footer-title {
-  margin-top: -350px;
-}
-
 .section-footer .section-footer-title h1 {
+  padding-top: 170px;
   font-family: 'Pacifico', serif;
   font-size: 70px;
   line-height: 90px;
   color: #fcf9f9;
   -webkit-transform: rotate(350deg);
           transform: rotate(350deg);
+}
+
+@media only screen and (max-width: 700px) {
+  header h1 {
+    font-size: 60px;
+  }
+  header p {
+    font-size: 40px;
+  }
+  /*
+  .section-remember {
+    .section-remember-heading {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .section-chapter {
+    .section-chapter-heading {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  */
+  .section-footer .section-footer-title h1 {
+    font-size: 60px;
+  }
 }
 
 .navbar-brand {
@@ -178,8 +205,9 @@ header .btn-take-look:hover {
 }
 
 .section-first-header {
-  min-height: 340px;
-  background-image: url("../images/first/banner.png");
+  height: 340px;
+  background: url("../images/first/banner.png") no-repeat right;
+  background-size: cover;
   margin-top: -60px;
 }
 
@@ -205,8 +233,6 @@ header .btn-take-look:hover {
 
 .section-first-content .story-content {
   margin-top: 70px;
-  margin-left: 170px;
-  margin-right: 170px;
   font-size: 24px;
   color: #041E44;
   text-align: justify;
@@ -221,19 +247,39 @@ header .btn-take-look:hover {
 
 .section-first-content .story-footer {
   margin-top: 60px;
-  margin-left: 140px;
-  margin-right: 140px;
-  margin-bottom: 90px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.section-first-content .story-footer img {
-  width: 1080px;
-  height: 440px;
+.section-first-content .story-footer .responsive {
+  width: 100%;
+  height: auto;
+}
+
+.section-first-content .first-footer {
+  background-color: #FAFAFA;
+  min-height: 70px;
+}
+
+@media only screen and (max-width: 700px) {
+  .section-first-content .story-content {
+    font-size: 18px;
+  }
+  .section-first-content .story-content .quote {
+    font-size: 18px;
+  }
+  .section-first-content .story-footer {
+    margin-top: 30px;
+  }
+  .section-first-content .first-footer {
+    min-height: 30px;
+  }
 }
 
 .section-updown-header {
   min-height: 340px;
-  background-image: url("../images/updown/banner.png");
+  background: url("../images/updown/banner.png") no-repeat center;
+  background-size: cover;
   margin-top: -60px;
 }
 
@@ -250,7 +296,6 @@ header .btn-take-look:hover {
 
 .section-updown-content {
   background-color: #FAFAFA;
-  margin-bottom: 60px;
 }
 
 .section-updown-content .loveline-title {
@@ -456,6 +501,7 @@ header .btn-take-look:hover {
 
 .section-updown-content .timeline-body .pic-inline .pic-thumb {
   border-radius: 5px;
+  overflow: hidden;
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -586,9 +632,14 @@ header .btn-take-look:hover {
   margin-top: 20px;
 }
 
+.section-updown-content .updown-footer {
+  height: 60px;
+}
+
 .section-smile-header {
   min-height: 340px;
-  background-image: url("../images/smile/banner.png");
+  background: url("../images/smile/banner.png") no-repeat center;
+  background-size: cover;
   margin-top: -60px;
 }
 
@@ -605,7 +656,6 @@ header .btn-take-look:hover {
 
 .section-smile-content {
   background-color: #FAFAFA;
-  margin-bottom: 60px;
 }
 
 .section-smile-content .smile-title {
@@ -709,9 +759,14 @@ header .btn-take-look:hover {
   margin-bottom: 10px;
 }
 
+.section-smile-content .smile-footer {
+  height: 160px;
+}
+
 .section-trivia-header {
   min-height: 340px;
-  background-image: url("../images/trivia/banner.png");
+  background: url("../images/trivia/banner.png") no-repeat center;
+  background-size: cover;
   margin-top: -60px;
 }
 
@@ -762,14 +817,16 @@ header .btn-take-look:hover {
 
 .section-trivia-content .card-question {
   margin-top: -20px;
-  height: 273px;
   border-radius: 10px;
   background: #fff;
   border: 1px solid #e1d4d4;
 }
 
 .section-trivia-content .card-question p {
-  padding: 50px 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
   font-size: 24px;
   color: #041E44;
   text-align: center;
@@ -777,14 +834,16 @@ header .btn-take-look:hover {
 
 .section-trivia-content .card-question-four {
   margin-top: -20px;
-  height: 233px;
   border-radius: 10px;
   background: #fff;
   border: 1px solid #e1d4d4;
 }
 
 .section-trivia-content .card-question-four p {
-  padding: 50px 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
   font-size: 24px;
   color: #041E44;
   text-align: center;
@@ -817,8 +876,8 @@ header .btn-take-look:hover {
 }
 
 .section-trivia-content .collapse-answer table {
-  margin-left: 30px;
-  margin-bottom: 30px;
+  margin-left: 3px;
+  margin-bottom: 3px;
   width: 100%;
   font-size: 20px;
   color: #041E44;
@@ -925,7 +984,8 @@ header .btn-take-look:hover {
 }
 
 .section-result-content .card-coupon h5 {
-  padding: 5px 5px;
+  padding-top: 2px;
+  padding-bottom: 8px;
   font-size: 18px;
   font-weight: lighter;
 }

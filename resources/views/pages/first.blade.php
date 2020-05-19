@@ -13,8 +13,8 @@
           <span class="title-second">Begins</span>
         </div>
       </div>
-      <div class="row">
-        <div class="col story-content">
+      <div class="story-content row justify-content-center">
+        <div class="col-9">
           <p>
             "Yaudah lu sekelompok sama gua aja, ada si Fitra juga tuh anak himasi"
           </p>
@@ -96,11 +96,18 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="story-footer">
-          <img src="{{ url('frontend/images/first/footer.png') }}" alt="">
+      <div class="container-fluid">
+        <div class="story-footer row justify-content-center">
+          <img 
+            src="{{ url('frontend/images/first/footer.png') }}" 
+            alt=""
+            class="responsive"
+            width="1280"
+            height="440"
+          >
         </div>
       </div>
+      <div class="first-footer"></div>
     </div>
   </section>
 </main>
