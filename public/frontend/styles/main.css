@@ -141,6 +141,25 @@ header .btn-take-look:hover {
   color: #fcf9f9;
 }
 
+.section-ready .modal .modal-content .chapter-close {
+  background-color: #EFD3D3;
+}
+
+.section-ready .modal .modal-content .chapter-close .title-footer {
+  color: #041E44;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+
+.section-ready .modal .modal-content .chapter-close .btn-finish {
+  background: #EFD3D3;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #041E44;
+  border-color: #041E44;
+  width: 100px;
+}
+
 .section-footer {
   background: url("../images/footer/banner.png") no-repeat center;
   background-size: cover;
@@ -296,6 +315,30 @@ header .btn-take-look:hover {
 
 .section-updown-content {
   background-color: #FAFAFA;
+  /*
+  @media only screen and (max-width: 600px) {
+    .timeline:before {
+      left: 60px;
+    }
+
+    .timeline>li>.timeline-badge {
+      left: 1px;
+    }
+
+    .timeline>li>.timeline-panel {
+      max-width: 100%;
+      float: left;
+      left: 40px;
+      position: relative;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+      margin-left: auto;
+      float: left;
+      position: relative;
+    }
+  }
+  */
 }
 
 .section-updown-content .loveline-title {
@@ -315,6 +358,7 @@ header .btn-take-look:hover {
 
 .section-updown-content .timeline {
   list-style: none;
+  max-width: 1300px;
   margin-top: 140px;
   padding: 20px 0 20px;
   position: relative;
@@ -357,7 +401,7 @@ header .btn-take-look:hover {
 }
 
 .section-updown-content .timeline > li > .timeline-panel-first {
-  width: 480px;
+  max-width: 480px;
   float: left;
   border: 1px solid #E1D4D4;
   border-radius: 2px;
@@ -368,7 +412,7 @@ header .btn-take-look:hover {
 }
 
 .section-updown-content .timeline > li > .timeline-panel {
-  width: 480px;
+  max-width: 480px;
   margin-top: -50px;
   float: left;
   border: 1px solid #E1D4D4;
@@ -678,6 +722,17 @@ header .btn-take-look:hover {
   margin-bottom: -93px;
 }
 
+.section-smile-content .card-columns .pic-thumb {
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section-smile-content .card-columns .pic-thumb:hover {
+  opacity: 0.7;
+}
+
 .section-smile-content .card-columns .card {
   border: 0px;
   width: 328px;
@@ -709,8 +764,7 @@ header .btn-take-look:hover {
   width: 330px;
 }
 
-.section-smile-content .card-columns .card-three-two {
-  margin-top: -1px;
+.section-smile-content .card-columns .card-four-two {
   margin-left: -157px;
 }
 
@@ -730,6 +784,69 @@ header .btn-take-look:hover {
 
 .section-smile-content .card-columns .card-three-five {
   margin-left: -179px;
+}
+
+.section-smile-content .card-columns .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  padding-bottom: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+.section-smile-content .card-columns .modal-content {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+.section-smile-content .card-columns .modal-content {
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.section-smile-content .card-columns .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section-smile-content .card-columns .close:hover,
+.section-smile-content .card-columns .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .section-smile-content .pic-margin-small {

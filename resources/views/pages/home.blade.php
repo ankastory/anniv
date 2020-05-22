@@ -115,9 +115,51 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <a href="" class="btn btn-ready">
+          <button 
+            type="button" 
+            class="btn btn-ready"
+            data-toggle="modal"
+            data-target="#vidChapter" 
+          >
             I'm Ready
-          </a>
+        </button>
+
+          <div class="modal fade" id="vidChapter" 
+            tabindex="-1" role="dialog" 
+            aria-labelledby="vidChapterLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body mt-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9">
+                  
+                  <iframe 
+                    class="embed-responsive-item" 
+                    src="{{ url('frontend/images/videos/new_chapter.mp4') }}"
+                    allowfullscreen>
+                  </iframe>
+                
+                <!--
+                  <video 
+                    class="video-fluid" 
+                    autoplay loop controls muted
+                  >
+                    <source 
+                      src="{{ url('frontend/images/videos/new_chapter.mp4') }}" 
+                      type="video/mp4" 
+                    />
+                  </video>
+                -->
+                </div>
+              </div>
+              
+              <div class="modal-footer chapter-close justify-content-center">
+                <span class="title-footer mr-2">Finish Watching?</span>
+                <button type="button" class="btn btn-finish btn-rounded btn-md ml-3" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
@@ -136,3 +178,7 @@
 </main>
 
 @endsection
+
+@push('addon-script')
+  
+@endpush
