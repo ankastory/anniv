@@ -173,20 +173,22 @@
 @endsection
 
 @push('addon-script')
+  
   <script>
     var no1 =  $("#salah, #benar");
 
     $('button').on('click',function(e){
       var target=$(this).attr('href');
       $(target).show();
-      sessionStorage.setItem('collapseItem', $(this).attr('href'));
+      //sessionStorage.setItem('collapseItem', $(this).attr('href'));
       $(no1).attr('disabled', 'disabled');
     });
 
+    /*
     var collapseItem = sessionStorage.getItem("collapseItem"); 
     if (collapseItem) {
       $(collapseItem).collapse('show');
     }
-       
+    */  
   </script>
 @endpush

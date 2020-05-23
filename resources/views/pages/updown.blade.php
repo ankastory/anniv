@@ -45,7 +45,7 @@
               </div>
               <div class="timeline-body">
                 <p>
-                  Setelah surprise yang kau berikan, aku tak
+                  Setelah surprise yang kamu berikan, aku tak
                   bisa lagi menganggapmu hanya teman
                   biasa. Sejak malam ini, aku yakin untuk
                   membuka lembaran baru dan meyakinkan
@@ -151,7 +151,7 @@
                 <p>
                   Aku melihat tangisan pertamamu malam
                   ini. Bukan karena kita bertengkar, tapi 
-                  karena kau merasa tak mampu melalui
+                  karena kamu merasa tak mampu melalui
                   ujian. Namun aku senang, karena di pagi
                   harinya, aku kembali melihat wajahmu 
                   dengan senyuman. Lalu berhasil lulus ujian
